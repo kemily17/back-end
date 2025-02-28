@@ -1,4 +1,4 @@
- // calciladora em javaScript
+ // calculadora em javaScript
  const valor1 = 1;
  const valor2 = 2;
  let soma = valor1 + valor2;
