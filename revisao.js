@@ -67,9 +67,9 @@ function analisarPrevisao(previsoes) {
         let chuva = previsoes[i].chanceDeChuva;
 
         if (chuva >= 50) {
-            console.log(`⚠️ No(a) ${dia} há alta chance de chuva (${chuva}%). Leve um guarda-chuva!`);
+            console.log(`No(a) ${dia} há alta chance de chuva (${chuva}%). Leve um guarda-chuva!`);
         } else {
-            console.log(`🌤️ No(a) ${dia} há baixa chance de chuva (${chuva}%). Aproveite o dia!`);
+            console.log(`No(a) ${dia} há baixa chance de chuva (${chuva}%). Aproveite o dia!`);
         }
     }
 }
